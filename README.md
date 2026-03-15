@@ -4,7 +4,7 @@
 Questo progetto ha come obiettivo la realizzazione di un modello di Machine Learning per la classificazione di attività fisiche (esercizi in palestra). La classificazione si basa sull'analisi dei dati acquisiti da un sensore inerziale (IMU), comprensivo di accelerometro e giroscopio, indossato sull'avambraccio.
 
 ## 📊 Dataset e Strumenti
-* **Dataset di riferimento**: MyoGym.
+* **Dataset di riferimento**: MyoGym (https://github.com/lok63/HAR-for-fitness-data).
 * **Sensore utilizzato**: I dati sono stati raccolti tramite un bracciale Myo Armband posizionato sull'avambraccio destro. Per la raccolta dati è stata utilizzata una frequenza di 50 Hz.
 * **Caratteristiche del segnale**: Sebbene il sensore acquisisca anche segnali EMG, questo progetto si concentra esclusivamente sui dati IMU (accelerometro a 3 assi e giroscopio a 3 assi).
 * **Feature utilizzate**: Sono state estratte 57 feature per l'accelerometro e 57 per il giroscopio, per un totale di 114 feature. I segnali sono stati segmentati tramite finestramento temporale con finestra di 4 s e passo di 1 s.
